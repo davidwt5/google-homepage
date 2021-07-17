@@ -1,0 +1,79 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+* {
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Horizontally centering all elements in main*/
+#main * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-logo {
+    display: block;
+    margin-top: 15%;
+    width: 272px;
+}
+
+#search-bar {
+    border-color: lightgray;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    height: 46px;
+    margin-top: 3%;
+    width: 584px;
+}
+
+#search-bar > input {
+    border: 1px solid rgba(0,0,0,0);
+    color: (0,0,0,.87);
+    font-size: 16px;
+    height: 34px;
+    margin-top: 3.5px;
+    text-align: left;
+    width: 487px;
+}
+
+#buttons {
+    margin-top: 1.5%;
+    width: 584px;
+    height: 58px;
+}
+
+#buttons > * {
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 5px 16px;
+    position: block;
+    text-align: center;
+    min-width: 54px;
+}
+
+#buttons>*:active {
+    border-color: royalblue;
+}
+
+.language{
+    color: #1a0dab;
+}
+
+#main > p {
+    margin: 0;
+}
