@@ -5,6 +5,11 @@ button:focus {
     outline: none;
 }
 
+html,body {
+    margin:0;
+    padding:0;
+}
+
 * {
     color: #3c4043;
     font-family: arial,sans-serif;
@@ -12,7 +17,57 @@ button:focus {
     text-align: center;
 }
 
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+
+#header #user-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+ul li a{
+    /* padding: 8px; */
+    align-items: center;
+    color: #222;
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #ececec;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#footer li a {
+    color: #70757a;
+}
+
+
 /* Horizontally centering all elements in main*/
+#main {
+    position: relative;
+    bottom: 55px;
+}
+
 #main * {
     margin-left: auto;
     margin-right: auto;
