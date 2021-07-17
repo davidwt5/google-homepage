@@ -132,3 +132,15 @@ ul li a{
 #main > p {
     margin: 0;
 }
+
+a:hover {
+    text-decoration: underline;
+}
+
+#user-icon:hover {
+    box-shadow: 0 0 10px rgb(0,0,0,.15);
+}
+
+#search-bar:hover {
+    box-shadow: 0 0 10px rgb(0,0,0,.15);
+}
